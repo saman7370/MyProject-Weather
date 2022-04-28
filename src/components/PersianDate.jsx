@@ -35,15 +35,15 @@ const PersianDate = () => {
     useEffect(() => {
         let m = moment()
         let finalDate = `${weekDays[m.day()]} ${m.jDate()} ${yearMonths[m.jMonth()]} ماه ${m.jYear()}`
-        setDate(finalDate)
-        setTime(m.format('HH:mm'))
+        setDate(finalDate);
+        setTime(m.format("HH:mm"))
         
     }, []);
 
     return (
         <div>
               <span className="mb-3 d-block text-center">{date}</span>
-              <span className="d-block text-center">ساعت <span className="Beyekan">{time}</span></span>
+              <span className="d-block text-center">ساعت {time}</span>
             
         </div>
     );

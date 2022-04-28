@@ -4,13 +4,6 @@
     box-sizing: border-box;}
 
 @font-face {
-    font-family: "vazir";
-    src: url("../fonts/vazir.eot") format("eot");
-    src: url("../fonts/vazir.ttf") format("ttf");
-    src: url("../fonts/vazir.woff") format("woff");
-    src: url("../fonts/vazir.woff2") format("woff2");}
-
-@font-face {
     font-family: "Yekan";
     src: url("../fonts/Yekan.eot") format("eot");
     src: url("../fonts/Yekan.ttf") format("ttf");
@@ -19,7 +12,7 @@
 
 body{
     direction: rtl;
-    font-family: vazir;}
+    font-family: Yekan;}
 
 .app{
     width: 100%;
@@ -58,14 +51,14 @@ body{
 }
 
 .search_input{
-    padding: 10px;
+    padding: 10px 100px;
     border: none;
     border-radius: 25px;
     font-family: vazir;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     background: transparent;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid rgba(255, 255, 255 , .8);
     box-shadow: 5px 10px 10px rgba(0, 0, 0 , 0.5);
     color: #fff;
     outline: none;
@@ -75,17 +68,14 @@ body{
 
 .text_color{
     color: #fff;
-    font-size: 35px;
+    font-size: 36px;
     margin-top: 10px;
     text-shadow: 1px 1px 10px #000;}
-
-.Beyekan{
-    font-family: Yekan;}
 
 .deg_box{
     direction: ltr;
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
     background: rgba(255, 255, 255 , 0.5);
     border-radius: 10px;
     padding: 50px 0;
@@ -97,14 +87,16 @@ body{
 
 .lathin_text{
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     text-shadow: 2px 2px 10px rgba(0, 0, 0 , 0.5);
     color: #fff;}
 
-.fa-cloud{
-    margin-left: 10px;}
+.text-error{
+    color: #fff;
+    text-shadow: 10px 10px 10px #000; 
+    font-size: 35px;}
 
 
 
